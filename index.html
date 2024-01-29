@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!-- custom built stylsheet -->
+
+    <link rel="stylesheet" href="styles-week3.css">
+
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+
+<body>
+    
+    <!-- navbar - Across Top -->
+
+    <!-- setting navbar to static top - collapse for small size screen -->
+   
+    <nav class="navbar navbar-default navbar-static-top navbar-light bg-light">
+        <a class="navbar-brand" href="#">Site Navigation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  
+          <!-- main navbar - links -->
+  
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Home</a>
+  
+            <!-- navbar dropdown link -->
+  
+            <a class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Guide
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="foundations.html">Foundations</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Philosophy</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Program</a>
+                </div>
+            </a>
+  
+            <!-- narbar - links -->
+  
+            <a class="nav-item nav-link" href="calculator.html">Calculator</a>
+          
+          </div>
+  
+        </div>
+  
+    </nav>
+  
+    <!-- navbar end -->
+
+
+    <!-- nutrition intro -->
+    
+    <div class="container intro">
+        <h1>Basic Nutrition</h1>
+        <h5>This site is here to help individuals who may be looking for a little guidance on the starting point of their nutirition and health journey. We have created a basic guide to nutrition that anyone should be able to follow. This includes a helpful calculator on the second page to better dial in your daily calorie needs.</h4>
+    </div>    
+    
+    <!-- end -->
+
+
+
+    <!-- Nutrition guide - container guide -->
+
+    <div id="accordion" class="container nutrition-guide">
+
+        <h2 class="row">
+            <p class="col">Nutrition Guide</p>
+        </h2>
+
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Foundations
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            
+            <div class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati est atque, eligendi harum sapiente ullam pariatur consequatur sit, unde voluptatibus cum reiciendis possimus enim nisi accusamus modi quasi tempore.
+            </div>
+            <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati est atque, eligendi harum sapiente ullam pariatur consequatur sit, unde voluptatibus cum reiciendis possimus enim nisi accusamus modi quasi tempore.
+            </div>
+            <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati est atque, eligendi harum sapiente ullam pariatur consequatur sit, unde voluptatibus cum reiciendis possimus enim nisi accusamus modi quasi tempore.
+            </div>
+
+            <a href="foundations.html" class="btn btn-primary">Getting Started</a>
+
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  Philosophy
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+              
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati est atque, eligendi harum sapiente ullam pariatur consequatur sit, unde voluptatibus cum reiciendis possimus enim nisi accusamus modi quasi tempore.
+              </div>
+              <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati est atque, eligendi harum sapiente ullam pariatur consequatur sit, unde voluptatibus cum reiciendis possimus enim nisi accusamus modi quasi tempore.
+              </div>
+              <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati est atque, eligendi harum sapiente ullam pariatur consequatur sit, unde voluptatibus cum reiciendis possimus enim nisi accusamus modi quasi tempore.
+              </div>
+  
+              <a href="#" class="btn btn-primary">Learn More</a>
+  
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                  Program
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+              
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati est atque, eligendi harum sapiente ullam pariatur consequatur sit, unde voluptatibus cum reiciendis possimus enim nisi accusamus modi quasi tempore.
+              </div>
+              <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati est atque, eligendi harum sapiente ullam pariatur consequatur sit, unde voluptatibus cum reiciendis possimus enim nisi accusamus modi quasi tempore.
+              </div>
+              <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati est atque, eligendi harum sapiente ullam pariatur consequatur sit, unde voluptatibus cum reiciendis possimus enim nisi accusamus modi quasi tempore.
+              </div>
+  
+              <a href="#" class="btn btn-primary">I'm Ready</a>
+  
+            </div>
+          </div>
+
+    </div>
+    
+<!-- 
+
+    <div class="container guide">
+        <h2 class="row">
+            <p class="col">Nutrition Guide</p>
+        </h2>
+        <div class="list-group list-group-horizontal">
+            <div class="list-group-item">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Foundations</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ratione natus laborum? Nisi voluptas quisquam, fuga blanditiis eaque dolore fugit inventore maxime dolor iure repellat facere nulla tempora officiis amet.</p>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ratione natus laborum? Nisi voluptas quisquam, fuga blanditiis eaque dolore fugit inventore maxime dolor iure repellat facere nulla tempora officiis amet.</p>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ratione natus laborum? Nisi voluptas quisquam, fuga blanditiis eaque dolore fugit inventore maxime dolor iure repellat facere nulla tempora officiis amet.</p>
+                    
+                    </div>
+                </div>
+            </div>  
+            <div class="list-group-item">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Philosophy</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ratione natus laborum? Nisi voluptas quisquam, fuga blanditiis eaque dolore fugit inventore maxime dolor iure repellat facere nulla tempora officiis amet.</p>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ratione natus laborum? Nisi voluptas quisquam, fuga blanditiis eaque dolore fugit inventore maxime dolor iure repellat facere nulla tempora officiis amet.</p>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ratione natus laborum? Nisi voluptas quisquam, fuga blanditiis eaque dolore fugit inventore maxime dolor iure repellat facere nulla tempora officiis amet.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>  
+            <div class="list-group-item">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Program</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ratione natus laborum? Nisi voluptas quisquam, fuga blanditiis eaque dolore fugit inventore maxime dolor iure repellat facere nulla tempora officiis amet.</p>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ratione natus laborum? Nisi voluptas quisquam, fuga blanditiis eaque dolore fugit inventore maxime dolor iure repellat facere nulla tempora officiis amet.</p>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ratione natus laborum? Nisi voluptas quisquam, fuga blanditiis eaque dolore fugit inventore maxime dolor iure repellat facere nulla tempora officiis amet.</p>
+                    <a href="#" class="btn btn-primary">I'm Ready</a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+
+
+
+    <!-- End container - Conclusion - footer -->
+
+    <div class="container end">
+
+        <h3 class="container text-center">
+            <p>Conclusion</p>
+        </h3>
+        <div class="container text-center">
+            <p>ipsum dolor sit amet consectetur adipisicing elit. Quisquam non repellat nihil quaerat impedit illum sint aliquid omnis natus illo, nesciunt suscipit necessitatibus ea officia magni hic eos asperiores corrupti?</p>
+        </div>
+
+        <div class="container footer">
+            <h5>JayLes Productions 2024</h5>
+            <p>'Another one'</p>
+        </div>
+
+    </div>
+
+    <!-- end -->
+    
+    <!-- script commands to enable bootstrap javascript components -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- end -->
+
+</body>
+</html>

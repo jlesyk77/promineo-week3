@@ -1,0 +1,114 @@
+/* -- CSS Styles Page - Week 3 -- */
+
+/* ------------------------- */
+
+@import 'variables';
+
+/* -- Whole Site-Main styling -- */
+
+body {
+    background-image:none;
+}
+
+/* Whole Site-Footer styling */
+
+.footer {
+    text-align: center;
+}
+
+.footer h5 {
+    font-weight: 770px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer p {
+    font-style: italic;
+    font-weight: 340px;
+    font-family:cursive;
+}
+
+/* ------------------------- */
+
+/* -- Navbar-Main styling -- */
+
+abc
+
+/* ------------------------- */
+
+/* -- Home Page-Main styling -- */
+
+/* Home Page-Header styling */
+
+abc
+
+/* Home Page-Guide styling */
+
+abc
+
+/* Home Page-Conclusion styling */
+
+abc
+
+
+/* ------------------------- */
+
+/* -- Calculator-Main styling -- */
+
+#left {
+    float: left;
+    font-style:normal;
+    font-weight: 750;
+    margin: 10px;
+}
+
+#right {
+    float: right;
+    font-style:normal;
+    font-weight: 750;
+    margin: 10px;
+}
+
+form {
+    margin: 20px;
+}
+
+fieldset {
+    color: navy;
+    margin: 20px;
+}
+
+legend {
+    color:blue;
+    font-weight: 900;
+}
+
+input {
+    color: crimson;
+}
+
+label {
+    color: black;
+}
+
+select {
+    color:crimson;
+}
+
+option {
+    background-color: black;
+    color: white;
+}
+
+button {
+    color: blue;
+}
+
+.explanation {
+    margin: 25px;
+}
+
+.explain {
+    padding: 15px;
+}
+
+/* ------------------------- */
